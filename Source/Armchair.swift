@@ -671,7 +671,7 @@ public func logger(_ logger: @escaping ArmchairLogger) {
 }
 
 open class StandardUserDefaults: ArmchairDefaultsObject {
-    let defaults = UserDefaults.standard
+    let defaults = UserDefaults(suiteName: "com.armchair.Armchair.defaults") ?? UserDefaults.standard
     
     @objc open func objectForKey(_ defaultName: String) -> AnyObject?             { return defaults.object(forKey: defaultName) as AnyObject? }
     @objc open func setObject(_ value: AnyObject?, forKey defaultName: String)    { defaults.set(value, forKey: defaultName) }
