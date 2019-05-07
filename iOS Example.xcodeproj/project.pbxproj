@@ -94,9 +94,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF7927872281B1F1007B3637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7927882281B1F1007B3637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60FA81719C9219600179D70 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		E66F854919D0A7C600AD80EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E6A0AF5D19C9C89E00C3A7DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6C49DC519C23C91006A4544 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5F4C219C8E18E008A6C1B /* armchair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = armchair.jpg; sourceTree = "<group>"; };
 		E6E5F4CC19C8E388008A6C1B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -212,6 +212,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F8111DFC19A951050040E7D1;
 			productRefGroup = F8111DFC19A951050040E7D1;
@@ -318,7 +319,7 @@
 		E66F854819D0A7C600AD80EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E66F854919D0A7C600AD80EC /* en */,
+				CF7927882281B1F1007B3637 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -326,7 +327,7 @@
 		F8111E1019A951050040E7D1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E6A0AF5D19C9C89E00C3A7DC /* en */,
+				CF7927872281B1F1007B3637 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
