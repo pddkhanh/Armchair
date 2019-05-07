@@ -21,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CF7927802281B134007B3637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8111E4E19A95D7C0040E7D1 /* Armchair.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D3A58912226DB5100F1C8DF;
+			remoteInfo = ArmchairTests;
+		};
 		E6A0AFAF19C9D24000C3A7DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F8111E4E19A95D7C0040E7D1 /* Armchair.xcodeproj */;
@@ -117,6 +124,7 @@
 			children = (
 				E6D8B8BB19C7382B001AD043 /* Armchair.framework */,
 				E6E5F4C119C8E156008A6C1B /* Armchair.framework */,
+				CF7927812281B134007B3637 /* ArmchairTests.xctest */,
 				E6A0AFB319C9D24000C3A7DC /* Armchair.bundle */,
 				E6D06B5619CB412500DE5D11 /* Armchair.bundle */,
 			);
@@ -194,13 +202,13 @@
 					F8111E0419A951050040E7D1 = {
 						CreatedOnToolsVersion = 6.0;
 						DevelopmentTeam = 9H3S97RP4K;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = F8111E0019A951050040E7D1 /* Build configuration list for PBXProject "iOS Example" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -222,6 +230,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		CF7927812281B134007B3637 /* ArmchairTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ArmchairTests.xctest;
+			remoteRef = CF7927802281B134007B3637 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E6A0AFB319C9D24000C3A7DC /* Armchair.bundle */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
@@ -370,7 +385,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -418,7 +433,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -440,7 +455,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.armchair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "iOS Example";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -458,7 +472,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.armchair.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "iOS Example";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
